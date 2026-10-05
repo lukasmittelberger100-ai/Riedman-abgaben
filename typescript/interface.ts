@@ -10,7 +10,7 @@ function nameAndAge(person:any): void {
 }
 nameAndAge(person); // Funktioniert nicht wegen bennenungs Fehler.
 // Funktioniert nicht wegen bennenungs Fehler.
-interface Person {
+export interface Person {
     name: string;
     age: number;}
     const person1: Person = {
